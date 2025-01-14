@@ -1,10 +1,10 @@
 const students = [
-    { name: 'John Doe', class: '10th Grade', marks: 95 },
-    { name: 'Jane Smith', class: '12th Grade', marks: 85 },
-    { name: 'Emma Johnson', class: '11th Grade', marks: 92 },
-    { name: 'Michael Brown', class: '9th Grade', marks: 88 },
-    { name: 'Sophia Davis', class: '10th Grade', marks: 90 },
-    { name: 'Liam Wilson', class: '12th Grade', marks: 97 },
+    { name: 'John Doe', class: '10th', marks: 95 },
+    { name: 'Jane Smith', class: '12th', marks: 85 },
+    { name: 'Emma Johnson', class: '11th', marks: 92 },
+    { name: 'Michael Brown', class: '9th', marks: 88 },
+    { name: 'Sophia Davis', class: '10th', marks: 90 },
+    { name: 'Liam Wilson', class: '12th', marks: 97 },
 ];
 
 let currentPage = 1;
