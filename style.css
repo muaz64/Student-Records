@@ -7,9 +7,28 @@ h1 {
     text-align: center;
 }
 
+input, button {
+    margin: 10px 5px;
+    padding: 8px;
+    font-size: 14px;
+}
+
+button {
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
 table {
     width: 100%;
     border-collapse: collapse;
+    margin-top: 20px;
 }
 
 th, td {
@@ -20,8 +39,28 @@ th, td {
 th {
     background-color: #4CAF50;
     color: white;
+    cursor: pointer;
 }
 
 td {
     background-color: #f2f2f2;
+}
+
+form {
+    margin-top: 20px;
+}
+
+#pagination button {
+    margin: 5px;
+    padding: 5px 10px;
+    font-size: 14px;
+    border: 1px solid #4CAF50;
+    background-color: white;
+    color: #4CAF50;
+    cursor: pointer;
+}
+
+#pagination button:hover {
+    background-color: #4CAF50;
+    color: white;
 }
